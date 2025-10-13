@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Project web saya</title>
+    <style>
+      .center-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .center-gif {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .about {
+      font-size: 48px;
+      font-weight: bold;
+      text-align: center;
+      animation: gantiWarna 2s infinite;
+    }
+    .container {
+      position: relative;
+      width: 200px;
+      height: 200px;
+      margin: 100px auto;
+    }
+
+    .rotating-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform-origin: 0 0;
+      animation: spin 5s linear infinite;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    @keyframes spin {
+      from {
+        transform: rotate(0deg) translateX(100px) rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg) translateX(100px) rotate(-360deg);
+      }
+    }
+
+    @keyframes gantiWarna {
+      0%   { color: red; }
+      20%  { color: orange; }
+      40%  { color: yellow; }
+      60%  { color: green; }
+      80%  { color: blue; }
+      100% { color: purple; }
+    }
+    .teks-muter {
+      font-size: 45px;
+      font-weight: bold;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      animation: muter 2s linear infinite;
+    }
+
+    @keyframes muter {
+      from { transform: rotate(0deg); }
+      to   { transform: rotate(360deg); }
+    }
+    
+    </style>
+</head>
+<body bgcolor="purple">
+<br>
+  <nav>
+    <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+
+    </ul>
+  </nav>
+  <section class="teks-muter">
+  <div>Kesehatan Mental</div>
+</section>
+<Br>
+  <br>
+  <br>
+  <br>
+<section class="about">
+    <font size="5">
+    <p align="center">Kesehatan mental adalah kondisi kesejahteraan yang memungkinkan seseorang untuk menyadari <br> potensinya, mengatasi stres normal, bekerja secara produktif, dan memberikan kontribusi pada <br> komunitasnya.</p>
+    </font>
+</section>
+<footer>
+    <p align="center">2025 Samuel Adira</p>
+</footer>
+<img src="ganggu.jpg" alt="contoh" class="center-img" >
+<br>
+<br>
+<p align="center">Amogus</p>
+<br>
+<img src="nice.gif" alt="GIF animasi" width="500" class="center-gif">
+</body>
+</html>
