@@ -2,7 +2,8 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Project web saya</title>
+    <title>Home - My Website</title>
+   <link rel="stylesheet" href="style.css">
     <style>
       .center-img {
         display: block;
@@ -68,19 +69,32 @@
       from { transform: rotate(0deg); }
       to   { transform: rotate(360deg); }
     }
-    
+    .navbar {
+      font-size: large;
+      font-style: italic;
+      font-weight: bolder;
+    }
     </style>
 </head>
 <body bgcolor="purple">
 <br>
-  <nav>
-    <ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Contact</a></li>
+<header>
+  <nav class="navbar">
 
-    </ul>
-  </nav>
+    <ul>
+    <li><a href="index.html" style="color:black;">Home</a></li>
+    <li><a href="about.html" style="color:black;">About</a></li>
+    <li><a href="contact.html" style="color:black;">Contact</a></li>
+  </ul>
+    </nav>
+    </header>
+  
+
+
+  <main>
+    <section class="profile">
+
+   
   <section class="teks-muter">
   <div>Kesehatan Mental</div>
 </section>
@@ -102,5 +116,11 @@
 <p align="center">Amogus</p>
 <br>
 <img src="nice.gif" alt="GIF animasi" width="500" class="center-gif">
+</section>
+</main>
+
+<footer>
+  <p>&copy; 2025 My Website. All rights reserved</p>
+</footer>
 </body>
 </html>
