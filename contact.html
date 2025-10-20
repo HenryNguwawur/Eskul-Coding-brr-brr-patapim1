@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Membuat List</title>
+        <!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Teks Bolak-Balik</title>
+  <style>
+    .teks-gerak {
+      width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+      position: relative;
+    }
+
+    .teks-gerak span {
+      display: inline-block;
+      position: relative;
+      animation: bolakBalik 2s linear infinite alternate;
+    }
+
+    @keyframes bolakBalik {
+      0% {
+        transform: translateX(0%);
+      }
+      100% {
+        transform: translateX(100%);
+      }
+    }
+  </style>
+    </head>
+    <body>    
+    <h1 align="center">Belajar membuat list dengan html</h1>
+    <h2>Unordered List</h2>
+    <ul class="teks-gerak">
+        <span>
+        <li>Banyuwangi</li>
+        <li>Boyolali</li>
+        <li>Pensylvania</li>
+        </span>
+    </ul>
+    <h2>Ordered List</h2>
+    <ol class="teks-gerak">
+        <span>
+        <li>Banyuwangi</li>
+        <li>Boyolali</li>
+        <li>Pensylvania</li>
+        </span>
+    </ol>
+</body>
+
+</html>
